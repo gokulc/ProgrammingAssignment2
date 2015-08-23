@@ -1,5 +1,5 @@
-## cacheSolve is R code to cache matrix inverse. Matrix inverse is 
-## time consuming operation. Every time one calls this function large 
+## Function cacheSolve is R code to cache matrix inverse. Matrix inverse is 
+## a time consuming operation. Every time one calls this function large 
 ## amount of computer resource is booked by this function and it does 
 ## take time. So the idea is to store the result in cache (memory)
 ## and retrieve it when the inverse function is called on any of the 
